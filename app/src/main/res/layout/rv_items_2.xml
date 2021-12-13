@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+android:orientation="vertical"
+    android:layout_width="match_parent">
+
+<androidx.cardview.widget.CardView
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+android:id="@+id/card_view"
+    android:layout_gravity="center_horizontal"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="#FCFFFF"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="3dp"
+    card_view:cardUseCompatPadding="true"
+>
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/textViewid"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:text="id"
+                android:visibility="visible"
+                android:textColor="#08308e"
+                />
+
+
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+
+                android:text="Name"
+                android:textColor="#d70a41" />
+
+            <TextView
+                android:id="@+id/textViewMobile"
+                android:layout_width="400dp"
+                android:layout_height="30dp"
+
+                android:text="Mobile"
+                android:textColor="#08308e" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView_email"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="email"
+            android:visibility="gone"
+
+            android:textColor="#08308e"
+            />
+
+
+
+
+
+    </LinearLayout>
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+<!--
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/textView_email"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="email"
+            android:visibility="invisible"
+            android:textColor="#08308e"
+            />
+
+        <TextView
+            android:id="@+id/textView_marriedstatus"
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:visibility="invisible"
+            android:text="status"
+            android:textColor="#d70a41" />
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView_gender"
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:visibility="invisible"
+            android:text="gender"
+            android:textColor="#08308e" />
+
+        <TextView
+            android:id="@+id/textView_rating"
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:visibility="invisible"
+            android:text="rating"
+            android:textColor="#08308e" />
+        <TextView
+            android:id="@+id/textView_dob"
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:visibility="invisible"
+            android:text="dob"
+            android:textColor="#08308e" />
+
+        <TextView
+            android:id="@+id/textView_status"
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:visibility="invisible"
+            android:text="status"
+            android:textColor="#08308e" />
+        <TextView
+            android:id="@+id/textView_tech"
+            android:layout_width="400dp"
+            android:layout_height="30dp"
+            android:visibility="invisible"
+            android:text="tech"
+            android:textColor="#08308e" />
+
+
+
+    </LinearLayout>
+-->
+
+
+</androidx.cardview.widget.CardView>
+    </LinearLayout>
